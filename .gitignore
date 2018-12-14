@@ -1,0 +1,38 @@
+.DS_Store
+node_modules
+db.sqlite3
+/dist
+backend/api/migrations
+backend/api/__pycache__
+backend/api/migrations/__pycache__
+backend/settings/__pycache__
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__
+*.py[cod]
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

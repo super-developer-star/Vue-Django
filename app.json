@@ -1,0 +1,25 @@
+{
+  "name": "vue-django",
+  "description": "",
+  "env": {
+    "DJANGO_SETTINGS_MODULE": {
+      "description": "Set Django Settings to Production",
+      "value": "backend.settings.prod"
+    }
+  },
+  "engines": {
+    "node": "^11.3.0",
+    "yarn": "^1.12.3",
+    "npm": "^6.4.1"
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
