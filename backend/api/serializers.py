@@ -11,12 +11,12 @@ class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(min_length=4)
 
     def create(self, validated_data):
-        user = User.objects.create_user(email=validated_data['email'], password=validated_data['password'])
+        user = User.objects.create_user(username=validated_data['email'], email=validated_data['email'],
+                                        password=validated_data['password'])
         user.staff = True
         user.admin = True
-        # user.save(using=self._db)
         return user
 
     class Meta:
         model = User
-        fields = ('email', 'password')
+        fields = '__all__'
