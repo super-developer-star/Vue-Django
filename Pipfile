@@ -10,8 +10,9 @@ gunicorn = "*"
 whitenoise = "==4.0"
 dj-database-url = "*"
 "psycopg2" = "*"
+requirements-txt = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.7"
+python_version = "3.6"

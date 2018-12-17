@@ -31,7 +31,7 @@ It is vue frontend server
 $ yarn serve
 ```
 
-The Vuejs application will be served from `localhost:8080` and the Django Api
+The VueJS application will be served from `localhost:8080` and the Django Api
 and static files will be served from `localhost:8000`.
 
 The dual dev server setup allows you to take advantage of

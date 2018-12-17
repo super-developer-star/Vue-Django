@@ -12,7 +12,8 @@ from .api.views import index_view
 from .api.views import UserViewSet
 
 UserViewSet.as_view({
-    'get': 'get'
+    'get': 'list',
+    'post': 'create'
 })
 
 router = routers.DefaultRouter()
